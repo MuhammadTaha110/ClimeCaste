@@ -1,5 +1,13 @@
+:root {
+    --bg-color: #feebc0;
+    --main-color: #5D3FD3;
+    --txt-color5: #000100;
+}
+
 .weatherCondition{
     width: 350px;
     height: 500px;
-    border: 2px solid black;
+    border: 2px solid var(--main-color);
+    background-color: var(--main-color);
+    border-radius: 15px;
 }
