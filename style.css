@@ -27,17 +27,28 @@
     background:linear-gradient(to bottom, #246fa8 0%, #5D3FD3 100%);
     border-radius: 15px;
     margin: 5% auto;
-    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.location{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    padding-top: 20px;
+    color: var(--bg-color);
 }
 
 
 .temperature{
+    margin-top: 20px;
     font-size: 2rem;
     color: var(--bg-color);
     margin-top: 140px;
     margin-left: 6%;
 }
 .sunny{
+    left: 0;
     position: absolute;
    margin-right: auto;
    width: 150px;
