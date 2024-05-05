@@ -1,6 +1,6 @@
 @font-face {
     font-family: Poppins;
-    src: url(fonts/Poppins-Regular.ttf);
+    src: url(fonts/Elecstrom\ Font\ -\ Free\ Trial.ttf);
 }
 
 :root {
@@ -12,6 +12,7 @@
 
 #Body{
     background-color: var(--bg-color-dark) ; 
+    font-family: Poppins;
 }
 
 #header{
@@ -22,15 +23,25 @@
     width: 80%;
     height: 500px;
     border: 2px solid var(--main-color);
-    background-color: var(--main-color);
+    border: none;
+    background:linear-gradient(to bottom, #246fa8 0%, #5D3FD3 100%);
     border-radius: 15px;
     margin: 5% auto;
+    display: flex;
 }
 
 
+.temperature{
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-top: 140px;
+    margin-left: 6%;
+}
 .sunny{
-    font-size: 10rem;
-    color: #F9D71C;
+    position: absolute;
+   margin-right: auto;
+   width: 150px;
+   height: 150px;
 }
 
 /* !Icons*/
