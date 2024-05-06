@@ -41,6 +41,11 @@
     font-size: 3rem;
     padding-top: 20px;
     color: var(--bg-color);
+
+    color: #fff;
+    text-shadow:
+      0 0 7px #000100,
+      0 0 50px  var(--main-color);
 }
 
 
