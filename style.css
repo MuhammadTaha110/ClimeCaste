@@ -17,6 +17,9 @@
 
 #header{
     background-color: var(--main-color) !important;
+    background-color: #246fa8 !important;
+    color: var(--bg-color);
+    font-size: 20px;
 }
 
 .weatherCondition{
@@ -70,7 +73,7 @@ justify-content: center;}
 .forecast .forecast-cards{
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 200px;
+    margin-top: 140px;
     width: 100px;
     height: 130px;
     border-radius: 10px;
